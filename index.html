@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Roger Fisher, a computer science student specializing in software development, databases, secure coding, graphics programming, and artificial intelligence."
+  />
+
+  <title>Roger Fisher | Software Developer Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
-  <script type="text/JavaScript" src="darkmode.js" defer></script>
+  <script src="darkmode.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <button id="theme-switch" aria-label="Toggle dark mode">
-          <img src="dark_mode_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg" alt="Dark mode icon">
-          <img src="light_mode_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg" alt="Light mode icon">
-        </button>
-      </header>
-      <header>
-      <nav>
+  <header>
+    <nav>
       <h1>Roger Fisher</h1>
+
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -24,118 +27,319 @@
         <li><a href="#resume">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
+      <button id="theme-switch" aria-label="Toggle light and dark mode">
+        <img
+          src="dark_mode_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg"
+          alt=""
+        />
+        <img
+          src="light_mode_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg"
+          alt=""
+        />
+      </button>
     </nav>
   </header>
 
   <main>
     <section id="hero">
-      <h2>Aspiring Software Developer</h2>
-      <p>I’m building my skills in programming, software development, and problem solving. Never stop learning!</p>
-      <a href="https://github.com/DKozzy" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/roger-fisher-jr/" target="_blank">LinkedIn</a>
+      <h2>Computer Science Student & Aspiring Software Developer</h2>
+
+      <p>
+        I develop software using Java, Python, C++, SQL, and modern development
+        tools, with experience in databases, secure coding, graphics programming,
+        software testing, and artificial intelligence.
+      </p>
+
+      <div class="hero-links">
+        <a href="https://github.com/DKozzy" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/roger-fisher-jr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+
+        <a href="#projects">View Projects</a>
+      </div>
     </section>
 
     <section id="about">
       <h2>About Me</h2>
+
       <p>
-        Hi, I'm Roger! I'm currently studying computer science at Southern New Hampshire University and working toward a career in software development. 
-        I enjoy building programs that solve real problems and learning how systems work behind the scenes.
-        <br>
-        <br>
-        During my time in the program, I have worked with languages like C++, Java, and Python, and I have built projects focused on algorithms, software security, and application design.
-        I enjoy the process of taking an idea and turning it into working code while improving my skills along the way.
-        <br>
-        <br>
-        This website serves as a portfolio where I share my projects, programming work, and progress as a developer.
-        <br>
-        <br>
-        When I'm not coding, I enjoy tabletop games, storytelling, and worldbuilding. Those hobbies keep me creative and often influence how I approach problem solving.
+        Hi, I'm Roger. I am pursuing a Bachelor of Science in Computer Science
+        at Southern New Hampshire University, where I currently maintain a
+        4.0 GPA and expect to graduate in November 2026.
+      </p>
+
+      <p>
+        My academic and personal work has given me experience with
+        object-oriented programming, database design, client-server development,
+        secure coding, software testing, artificial intelligence, and
+        computational graphics. I enjoy breaking complex problems into smaller,
+        maintainable systems and turning ideas into functional software.
+      </p>
+
+      <p>
+        I also bring more than a decade of professional experience from Walmart,
+        including two years as a department manager. That experience strengthened
+        my leadership, communication, organization, teamwork, and problem-solving
+        skills. I later transitioned into a different role so I could focus on
+        completing my computer science degree while continuing to work.
+      </p>
+
+      <p>
+        Outside of programming, I enjoy tabletop games, storytelling, and
+        worldbuilding. These interests keep me creative and influence how I
+        approach design and problem solving.
       </p>
     </section>
 
     <section id="skills">
-  <h2>Skills</h2>
+      <h2>Technical Skills</h2>
 
-  <h3>Languages</h3>
-  <div class="skill-tags">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>Java</span>
-    <span>C++</span>
-    <span>Python</span>
-  </div>
+      <h3>Programming Languages</h3>
+      <div class="skill-tags">
+        <span>Java</span>
+        <span>Python</span>
+        <span>C++</span>
+        <span>SQL</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </div>
 
-  <h3>Tools</h3>
-  <div class="skill-tags">
-    <span>GitHub</span>
-    <span>Git</span>
-    <span>VS Code</span>
-    <span>Eclipse</span>
-  </div>
+      <h3>Databases</h3>
+      <div class="skill-tags">
+        <span>MongoDB</span>
+        <span>SQLite</span>
+      </div>
 
-  <h3>Concepts</h3>
-  <div class="skill-tags">
-    <span>Object-Oriented Programming</span>
-    <span>Data Structures</span>
-    <span>Software Testing</span>
-    <span>Software Security</span>
-    <span>Debugging</span>
-  </div>
-</section>
+      <h3>Frameworks & Libraries</h3>
+      <div class="skill-tags">
+        <span>PyMongo</span>
+        <span>Dash</span>
+        <span>Plotly</span>
+        <span>OpenGL</span>
+        <span>GLSL</span>
+        <span>TensorFlow</span>
+        <span>Keras</span>
+        <span>JUnit 5</span>
+      </div>
+
+      <h3>Tools & Technologies</h3>
+      <div class="skill-tags">
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Android Studio</span>
+        <span>Visual Studio</span>
+        <span>VS Code</span>
+        <span>IntelliJ IDEA</span>
+        <span>PyCharm</span>
+        <span>Jupyter Notebook</span>
+        <span>Linux</span>
+        <span>Raspberry Pi</span>
+      </div>
+
+      <h3>Core Concepts</h3>
+      <div class="skill-tags">
+        <span>Object-Oriented Programming</span>
+        <span>Data Structures & Algorithms</span>
+        <span>Client-Server Architecture</span>
+        <span>CRUD Development</span>
+        <span>Secure Coding</span>
+        <span>Software Testing</span>
+        <span>Static Analysis</span>
+        <span>Database Design</span>
+        <span>Reinforcement Learning</span>
+        <span>Real-Time Rendering</span>
+      </div>
+    </section>
 
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
 
-      <article>
-        <h3>MEAN Stack Web Application (CS465 Project)</h3>
-        <p>This project is a full-stack web application built using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). 
-            The goal of the project is to design and implement a dynamic web application with a connected database, RESTful API, and responsive front-end interface.
-            <br>
-            <br>
-            The application demonstrates my ability to work with full-stack JavaScript development, including building backend services with Node and Express, managing data with MongoDB, and developing a client interface with Angular. 
-            This project is currently a work in progress as I continue refining features and improving the user interface.</p>
-        <a href="https://github.com/DKozzy/CS-465-fullstack" target="_blank">View on GitHub</a>
+      <article class="project-card">
+        <h3>Animal Shelter Management Dashboard</h3>
+
+        <p class="project-tech">
+          Python • MongoDB • PyMongo • Dash • Plotly
+        </p>
+
+        <p>
+          Developed a reusable Python CRUD module that securely manages MongoDB
+          operations while separating database access from the user interface.
+          The application includes create, read, update, and delete functionality
+          for animal shelter records.
+        </p>
+
+        <p>
+          Built an interactive dashboard with rescue-type filtering, dynamic data
+          tables, geolocation mapping, and analytical visualizations. All database
+          communication is routed through a reusable data access layer to improve
+          maintainability, scalability, and code reuse.
+        </p>
+
+        <a
+          href="https://github.com/DKozzy/CS-340"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project on GitHub
+        </a>
       </article>
 
-      <article>
-        <h3>Client-Server Development Dashboard (CS340 Project)</h3>
-        <p>This project demonstrates a client-server application built with Python, MongoDB, and the Plotly Dash framework. 
-            The application connects to a MongoDB database and provides an interactive dashboard that allows users to query, filter, and visualize data through dynamic tables and charts.
-            <br>
-            <br>
-            A custom CRUD Python module was developed using PyMongo to handle database operations such as creating, reading, updating, and deleting records. 
-            The dashboard interface integrates these database operations with interactive components that update visualizations and data views in real time.
-            <br>
-            <br>
-            This project highlights my experience working with database integration, backend data operations, and interactive data visualization in a web-based interface.</p>
-        <a href="https://github.com/DKozzy/CS-340" target="_blank">View on GitHub</a>
+      <article class="project-card">
+        <h3>Secure Software Engineering Portfolio</h3>
+
+        <p class="project-tech">
+          C++ • Static Analysis • Secure Coding • Defensive Programming
+        </p>
+
+        <p>
+          Identified and remediated software vulnerabilities in legacy C++ code,
+          including buffer overflows, numeric overflow and underflow, SQL
+          injection, and unsafe error handling.
+        </p>
+
+        <p>
+          Applied input validation, exception handling, encryption, boundary
+          checking, and defensive programming techniques. Used static analysis
+          tools to locate defects, compare results, and improve software security,
+          reliability, and maintainability.
+        </p>
+
+        <a
+          href="https://github.com/DKozzy/CS-405"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project on GitHub
+        </a>
+      </article>
+
+      <article class="project-card">
+        <h3>Interactive 3D Graphics Environment</h3>
+
+        <p class="project-tech">
+          C++ • OpenGL • GLSL • Shader Programming
+        </p>
+
+        <p>
+          Developed an interactive 3D tabletop environment using C++ and OpenGL.
+          The project implements Phong lighting, texture mapping, transparency,
+          object transformations, materials, and camera movement.
+        </p>
+
+        <p>
+          Designed a modular architecture using reusable SceneManager,
+          ViewManager, and ShaderManager classes. Created custom vertex and
+          fragment shaders to support dynamic lighting, layered textures, and
+          realistic material rendering.
+        </p>
+
+        <a
+          href="https://github.com/DKozzy/CS330"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project on GitHub
+        </a>
+      </article>
+
+      <article class="project-card">
+        <h3>Pirate Intelligent Agent</h3>
+
+        <p class="project-tech">
+          Python • TensorFlow/Keras • Jupyter Notebook • Deep Q-Learning
+        </p>
+
+        <p>
+          Developed a reinforcement learning agent that solves a maze-based
+          pathfinding problem through trial-and-error learning. Implemented the
+          Q-training algorithm, including experience replay, Q-value updates,
+          and exploration-versus-exploitation logic.
+        </p>
+
+        <p>
+          Trained and evaluated the neural network until the agent successfully
+          learned the optimal navigation strategy, achieving a 100% win rate at
+          epoch 442.
+        </p>
+
+        <a
+          href="https://github.com/DKozzy/CS-370"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project on GitHub
+        </a>
       </article>
     </section>
 
     <section id="resume">
       <h2>Resume</h2>
-      
-      <a href="Roger_FisherJr_Resume.pdf" target="_blank">
-        View Resume 
-      </a>
-      
-      <a href="Roger_FisherJr_Resume.pdf" download>
-        Download My Resume
-      </a>
+
+      <p>
+        View or download my resume for additional information about my education,
+        professional experience, technical skills, and software projects.
+      </p>
+
+      <div class="resume-links">
+        <a href="Roger Resume.pdf" target="_blank">
+          View Resume
+        </a>
+
+        <a href="Roger Resume.pdf" download>
+          Download Resume
+        </a>
+      </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: Rogerfisher654@gmail.com</p>
-      <a href="https://github.com/" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+
+      <p>
+        I am interested in entry-level software development opportunities and
+        connecting with others in the technology industry.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:Rogerfisher654@gmail.com">
+          Rogerfisher654@gmail.com
+        </a>
+
+        <a
+          href="https://github.com/DKozzy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/roger-fisher-jr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Roger Fisher</p>
+    <p>&copy; 2026 Roger Fisher</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+Important corrections this makes
+
+Your current contact section links to the generic GitHub and LinkedIn homepages:
